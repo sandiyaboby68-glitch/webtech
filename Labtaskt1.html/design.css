@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: blue;
+}
+
+
+.Product1{
+    display: inline-block;        
+    width: 250px;                
+    background-color: aliceblue;    
+    border: 2px solid  cornflowerblue;
+    padding: 15px;               
+    margin: 10px;                
+    text-align: center;          
+    vertical-align: top;      
+    transition: 0.3s;           
+    box-sizing: border-box;      
+}
+.row {
+    width: 100%;       
+    margin-bottom: 20px; 
+    white-space: nowrap;
+    text-align: center;
+}
+
+.Product2{
+    display: inline-block;        
+    width: 250px;                
+    background-color: aliceblue; 
+    border: 2px solid  cornflowerblue;
+    padding: 15px;               
+    margin: 10px;                
+    text-align: center;          
+    vertical-align: top;      
+    transition: 0.3s;           
+    box-sizing: border-box;      
+}
+.Product3{
+    display: inline-block;        
+    width: 250px;                
+    background-color: aliceblue; 
+    border: 2px solid  cornflowerblue;
+    padding: 15px;               
+    margin: 10px;                
+    text-align: center;          
+    vertical-align: top;      
+    transition: 0.3s;           
+    box-sizing: border-box;      
+}
+
+
+
+.Product1 h2, .Product2 h2, .Product3 h2 {
+    font-size: 18px;
+    margin: 10px 0 5px 0;
+    color: brown;
+}
+
+.Product1 p, .Product2 p, .Product3 p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+}
+
+
+.Product1 h3, .Product2 h3, .Product3 h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #222;
+}
+
+
+.buy-btn {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.buy-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.Product1:hover, .Product2:hover, .Product3:hover {
+    outline: 3px solid #007bff;   
+    outline-offset: 5px;           /
+}
