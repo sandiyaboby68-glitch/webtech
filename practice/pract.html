@@ -1,11 +1,52 @@
 <html>
  <head>
-    
+    <script src="script.js"></script>
  <title>Product Information Box</title>
- <link rel="stylesheet" href="design.css">
+ <link rel="stylesheet" href="design1.css">
  </head>
  <body>
     <h1 class="title">Product Display</h1>
+    <h1 class="tittle">Please fill up your information</h1>
+    <form>
+        <table>
+            <tr>
+                <td>Give your email</td>
+                <td>
+                <input
+                type="text"
+                placeholder="Enter your email"
+                id="email"
+                name=" "
+                onchange="return getEmail();"
+                />
+            </td>
+            <td>
+                <p id="emailErr" style="color: red"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>
+              <input
+                type="password"
+                placeholder="Enter your Password "
+                id="password"
+                onkeyup="return getPassword();"
+              />
+            </td>
+            <td>
+                <p id="passwordErr" style="color: red"></p>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                  <button type="submit" onclick="return collectData();">
+                    Submit
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </form>
     <div class="row">
     <div class="Product1">
         <img src="laptop1.png" alt="Laptop 1">
