@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Student log in from</title>
+        <link rel="stylesheet" href="style.css">
+        <script src=script.js></script>
+       
+
+    </head>
+    <body>
+        <form onsubmit="return collectData();">
+        <table>
+        <tr>
+        <td>Email</td>
+        <td><input type="emai" id="email" placeholder="Enter your Email">
+        <span id="emailerror"></span>
+        </td>
+        </tr>
+        <tr>
+        <td>Password</td>
+        <td><input type="password" id="password" placeholder="Enter password">
+        <span id="passworderror"></span><br><br>
+        </td>
+        </tr>
+        <tr>
+        <td>Confirm passsword</td>
+        <td><input type="password" id="confirmpassword" placeholder="Enter password again">
+        <span id="confirmerror"></span>
+        </td>
+        </tr>
+        <tr>
+        <td></td>
+        <td>
+        <button type="submit">Submit</button>
+        </td>
+        </tr>
+        </table>
+        </form>
+
+
+    </body>
+</html>

@@ -7,10 +7,9 @@ function collectData(){
     console.log(email);
     console.log(password);
 
-if(!email){
-    document.getElementById("emailerror").innerHTML="Email is required";
+if(!email.includes("@")){
+    document.getElementById("emailerror").innerHTML="@ is required in email";
     count++;
-    alert("Error in submit:"+count);
 }
 
 else{
@@ -20,10 +19,14 @@ else{
 if (!password){
     document.getElementById("passworderror").innerHTML="Email is required";
     count++;
-    alert("Error in submit:"+count);
+    
+}
+if(passsword.length<6){
+    
 }
 else{
     document.getElementById("passworderror").innerHTML="";
 }
+document.write("Count..", count);
 return false;
 }
