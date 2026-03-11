@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>GLOBAL TECH CONNECT EVENT</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer ></script>
+    </head>
+    <body> 
+        <div class="container">
+            <h2>Global Tech Connect - Event Registration</h2>
+            <form id="registrationForm" onsubmit="return registeruser()">
+            <table>
+                <tr>
+                <td>Enter Full Name</td>
+                <td>
+                <input type="text" id="name" placeholder="Enter Your Full name"><br>
+                <span id="nameerror"></span>
+                </td>
+                </tr>
+
+                <tr>
+                <td>Enter Professional Email </td>
+                <td>
+                <input type="text" id="email" placeholder="Enter your professional email"><br>
+                <span id="emailerror"></span>
+                </td>
+                </tr>
+
+                <tr>
+                <td>Company/Institution</td>
+                <td>
+                <input type="text" id="company" placeholder="Enter your company or institute name"><br>
+                <span id="companyerror"></span>
+                </td>
+                </tr>
+
+                <tr>
+                <td>Attendence Type</td>
+                <td>
+                <input type="radio" name="attendance" value="Virtual">Virtual
+                <input type="radio" name="attendance" value="InPerson">In-Person<br>
+                <span id="attendanceerror"></span>
+                </td>
+                </tr>
+
+                <tr>
+                <td></td>
+                <td>
+                <button type="submit">Register</button>
+                </td>
+
+                </tr>
+            </table></form>
+            <br>
+            <button onclick="toggleanalytics()" id="analyticsbutton">Show Event Analytics</button>
+            <div id="analyticspanel" hidden>
+            <h3>Event Analytics</h3>
+            <p>Total Registrants: <span id="total">0</span></p>
+            <p>Virtual: <span id="virtual">0</span></p>
+            <p>In-Person:<span id="inperson">0</span></p>
+            </div>
+        </div>
+    </body>
+</html>
