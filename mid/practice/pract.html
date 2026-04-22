@@ -1,0 +1,217 @@
+<html>
+ <head>
+    <script src="script.js"></script>
+ <title>Product Information Box</title>
+ <link rel="stylesheet" href="design1.css">
+ </head>
+ <body>
+    <h1 class="title">Product Display</h1>
+    <h1 class="tittle">Please fill up your information</h1>
+    <form>
+        <table>
+            <tr>
+                <td>Give your email</td>
+                <td>
+                <input
+                type="text"
+                placeholder="Enter your email"
+                id="email"
+                name=" "
+                onchange="return getEmail();"
+                />
+            </td>
+            <td>
+                <p id="emailErr" style="color: red"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>
+              <input
+                type="password"
+                placeholder="Enter your Password "
+                id="password"
+                onkeyup="return getPassword();"
+              />
+            </td>
+            <td>
+                <p id="passwordErr" style="color: red"></p>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                  <button type="submit" onclick="return collectData();">
+                    Submit
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </form>
+    <div class="row">
+    <div class="Product1">
+        <img src="laptop1.png" alt="Laptop 1">
+        <h2>Laptop</h2>
+        <p>
+            Processor: Intel Core Ultra 9 288V,<br>
+            With Max. 48 NPU TOPS<br>
+            (120 total AI TOPS)<br>
+            RAM: 32GB LPDDR5x-8533,<br>
+            Storage: 2TB NVMe PCIe Gen4x4<br>
+            SSD<br>
+            Display: 13.3" 2.8K (2880x1800),<br>
+            OLED, 100% DCI-P3, 16:10<br>
+            Features: Fingerprint, Backlit<br>
+             Keyboard,<br>
+            Copilot+ PC, Intel Killer BE Wi-Fi<br>
+        </p>
+        <h3>325,000৳</h3>
+        <button class="buy-btn">Buy Now</button>
+
+    </div>
+    
+    <div class="Product1">
+        <img src="laptop2.png" #alt="Laptop 2">
+        <h2>Laptop 2</h2>
+        <p>
+            Processor: AMD Ryzen 3 7320U <br>
+            (4C / 8T, 2.4 / 4.1GHz, 2MB L2 /<br>
+             4MB L3)<br>
+            RAM: 8GB LPDDR5-5500, <br>
+            Storage: 512GB M.2 2242 PCIe 4.0x4 <br>
+            NVMe SSD<br>
+            Display: 15.6" FHD (1920x1080)<br>
+            IPS 300nits Anti-glare<br>
+            Features: Privacy Shutter, <br>
+            Wi-Fi 6, Type-C, Military Grade<br>
+
+        </p>
+        <h3>51,500৳</h3>
+        <button class="buy-btn">Buy Now</button>
+
+    </div>
+
+    <div class="Product1">
+        <img src="laptop3.png" #alt="Laptop 3">
+        <h2>Laptop 3</h2>
+        <p>
+            Processor: AMD Ryzen 3 7320U <br>
+            (4C / 8T, 2.4 / 4.1GHz, 2MB L2 <br>
+            / 4MB L3)<br>
+            Ram: 8GB DDR5,<br>
+            Storage: 512GB SSD<br>
+            Display: 15.6" FHD (1920x1080) <br>
+            IPS 300nits Anti-glare<br>
+            Features: Mil-Std-810h Military Grade,<br
+             Wi-Fi 6, BT5.2<br>
+
+        </p>
+        <h3>51,800৳</h3>
+        <button class="buy-btn">Buy Now</button>
+
+    </div>
+    <div class="row">
+    <div class="Product2">
+        <img src="headphone1.png" #alt="Headphones 1">
+        <h2> Headphones 1</h2>
+        <p>
+            Driver Diameter: 40mm Drivers for<br>
+            Excellent bass & treble reproduction<br>
+            Microphone: Noise-Cancelling,<br>
+            Boom Microphone<br>
+            Connectivity: 3.5mm Audio Jack, <br>
+            Cable Length: 1.2m ± 5cm<br>
+            Over-Ear, Ultra-Soft Cushioned<br>
+             Earpads,<br>
+            Inline Volume Control<br>
+
+        </p>
+        <h3>1,600৳</h3>
+        <button class="buy-btn">Buy Now</button>
+
+    </div>
+
+    <div class="Product2">
+        <img src="headphone2.png" #alt="Headphones 2">
+        <h2> Headphones 2</h2>
+        <p>
+            Driver Diameter: 30mm Drivers<br>
+            with Great Bass Reproduction<br>
+            Microphone: Noise Cancelling, <br>
+            Boom Microphone,<br>
+            Connectivity: USB Headset,<br>
+            Cable Length: 200cm ± 5cm<br>
+            Lightweight, Soft Foam Ear Cushions,<br>
+            Volume Control, Mute Function<br>
+
+           
+        </p>
+        <h3>2,000৳</h3>
+        <button class="buy-btn">Buy Now</button>
+
+    </div>
+
+
+    <div class="Product2">
+        <img src="headphone3.png" #alt="Headphones 3">
+        <h2> Headphones 3</h2>
+        <p>
+            Frequency: 20Hz to 20KHz<br>
+            Sensitivity: 110 dB ± 3 dB<br>
+            Cable Length: 4ft+-10%<br>
+            
+
+        </p>
+        <h3>2,000৳</h3>
+        <button class="buy-btn">Buy Now</button>
+
+    </div>
+    <div class="row">
+    <div class="Product3">
+        <img src="smartwatch1.png" #alt="Smartwatch 1">
+        <h2>Smartwatch 1</h2>
+        <p>
+            1 1.9 inch HD Display<br>
+            100+ Sports Modes<br>
+            300mAh battery Capacity<br>
+            Waterproof level: IP68<br>
+               
+            
+        </p>
+        <h3>1,440৳</h3>
+        <button class="buy-btn">Buy Now</button>
+
+    </div>
+
+    <div class="Product3">
+        <img src="smartwatch2.png" #alt="Smartwatch 2">
+        <h2>Smartwatch 2</h2>
+        <p>
+            2 1.9 inch IPS HD Display<br>
+            SpO2 tracking & Heart rate monitoring<br>
+            104 Sport Modes<br>
+            IP68 Waterproof smartwatch 3 <br>    
+        </p>
+        <h3>1,340৳</h3>
+        <button class="buy-btn">Buy Now</button>
+
+    </div>
+
+    <div class="Product3">
+        <img src="smartwatch2.png" #alt="Smartwatch 2">
+        <h2>Smartwatch 2</h2>
+        <p>
+            1.91 inch TFT HD (240x280)<br>
+            Color Touchscreen<br>
+            Guard health all day 24-hour<br>
+            monitoring<br>
+            Bluetooth call, NFC Access Control<br>
+            IP67 water-resistant<br>
+            
+        </p>
+        <h3>1,690৳</h3>
+        <button class="buy-btn">Buy Now</button>
+
+    </div>
+
+
+ </body>
